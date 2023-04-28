@@ -1,2 +1,4 @@
 /pypoetry/
 .idea/
+.coverage
+poetry.lock
