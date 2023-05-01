@@ -54,6 +54,8 @@ def show_operations(operations):
                   f'{"".join(sender_acc_num[:6])}-> '
                   f'{"".join(recipient_acc_card)} **{recipient_acc_num[len(recipient_acc_num)-4:]}\n'
                   f'{amount} {currency}\n'))
+    res.sort()
+
     return '\n'.join(res)
 
 
